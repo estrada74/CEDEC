@@ -1,0 +1,141 @@
+body{
+	background: #E8EBEF !important;
+}
+
+
+nav{
+    box-shadow: 5px 5px 5px #888888;
+	position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 100
+}
+
+._active{
+	color: white !important;
+	background: #2C97BA;
+}
+
+.respuesta{
+	color: white; 
+	background: #2C97BA; 
+	border-radius: 2px; 
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+._shadow{
+	text-shadow: 1px 1px black;
+}
+
+._container{
+	margin: 15px;
+	padding: 10px;
+	margin-top: 105px;
+	border-radius: 10px;
+	background: white;
+	 /*border: 1px solid;*/
+    /*padding: 10px;*/
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.fondo_img{
+	margin: 15px;
+	padding-top: 27px;
+	border-radius: 10px;
+	background-image: url(../../images/portada.jpg);
+	background-repeat: no-repeat;
+	height: 220px;
+	color: white;
+}
+
+.bord{
+	background-color: rgba(44,151,186,0.6);
+	margin-left: 12%;
+	margin-right: 12%;
+	border-radius: 5px;
+	/*margin-top: 30px;*/
+}
+
+#sidebar-wrapper{
+	position: fixed !important;
+	top: 0 !important;
+	box-shadow: 2px 6px 14px #888888;
+}
+
+#sidebar-wrapper ul li a{
+	color: #2C97BA;
+	font-family: 'Bitter', serif;
+	/*font-size: 120%;*/
+	/*margin-top: 10px;*/
+}
+
+#menupri ul li a{
+	color: #2C97BA;
+	font-family: 'Roboto', sans-serif;
+	font-size: 120%;
+	margin-top: 10px;
+}
+
+#menupri ul li a:hover{
+	color: white;
+	background: #2C97BA;
+	border-radius: 10px;
+}
+
+#menupri ul li h2{
+	color: white;
+	background: #2C97BA;
+	border-radius: 10px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1,h5,h2,h3,h4{
+	font-family: 'Pridi', serif !important;
+}
+
+label{
+	text-shadow: 1px 1px #E3E3E3;
+}
+
+
+p,.panel-title{
+	font-family: 'Noto Serif', serif;
+}
+
+._titulos{
+	color: #2C97BA;
+	background: #E8EBEF;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+/* ---------------- T A B L E S -------------------- */
+
+
+
+
+th{
+	/*font-size: 90%;*/
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+}
+
+td{
+	font-size: 120%;
+	text-align: center;
+	font-family: 'Neuton', serif;
+}
+
+.uls{
+	margin-bottom: 0px;
+}
+
+
